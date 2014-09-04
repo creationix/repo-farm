@@ -1,0 +1,28 @@
+{
+  "name": "repo-farm",
+  "version": "1.0.0",
+  "description": "Cluster of js-git repos that auto-clone submodules to provide a virtual filesystem from git.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:creationix/repo-farm.git"
+  },
+  "keywords": [
+    "js-git",
+    "vfs"
+  ],
+  "author": "Tim Caswell <tim@creationix.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creationix/repo-farm/issues"
+  },
+  "homepage": "https://github.com/creationix/repo-farm",
+  "dependencies": {
+    "bodec": "^0.1.0",
+    "culvert": "^0.1.2",
+    "gen-run": "^0.1.2",
+    "git-node-fs": "^1.0.0",
+    "git-sha1": "^0.1.2",
+    "js-git": "^0.7.7",
+    "pako": "^0.2.5"
+  }
+}
